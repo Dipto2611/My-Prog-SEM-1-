@@ -6,3 +6,5 @@ void hi(){
 int main(){
     hi();
 }
+
+
