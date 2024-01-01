@@ -1,4 +1,4 @@
-//read full string /// input (Char by char)
+//write full string /// input (Char by char)
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -23,6 +23,7 @@ int main()
      fputc(str[i],fp);
     }
    
+
     fclose(fp);
 
 

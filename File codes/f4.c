@@ -1,52 +1,52 @@
-/*//write a file
-#include <stdio.h>
-#include <stdlib.h>
+// /*//write a file
+// #include <stdio.h>
+// #include <stdlib.h>
 
-int main()
-{
-    FILE *fp;
-    char ch;
-    fp=fopen("dc.txt","w");
+// int main()
+// {
+//     FILE *fp;
+//     char ch;
+//     fp=fopen("dc.txt","w");
 
- if(fp==NULL)
-    {
-      printf("Error");
-      exit(1);
-    }
-    ch=fgets(ch,fp);
-    printf("%c",ch);
-    fclose(fp);
+//  if(fp==NULL)
+//     {
+//       printf("Error");
+//       exit(1);
+//     }
+//     ch=fgets(ch,fp);
+//     printf("%c",ch);
+//     fclose(fp);
 
-}
-/**/
-/*#include <stdio.h>
-#include <stdlib.h>
+// }
+// /**/
+// /*#include <stdio.h>
+// #include <stdlib.h>
 
-int main() {
-    FILE *fp;
-    char str;
+// int main() {
+//     FILE *fp;
+//     char str;
 
-    // Open the file in write mode
-    fp = fopen("dc.txt", "w");
+//     // Open the file in write mode
+//     fp = fopen("dc.txt", "w");
 
-    if (fp == NULL) {
-        printf("Error opening file");
-        exit(1);
-    }
+//     if (fp == NULL) {
+//         printf("Error opening file");
+//         exit(1);
+//     }
 
-    // Read a character from the user
-    printf("Enter a character: ");
-    scanf("%s", &str);
+//     // Read a character from the user
+//     printf("Enter a character: ");
+//     scanf("%s", &str);
 
-    // Write the character to the file
-    fputc(str, fp);
+//     // Write the character to the file
+//     fputc(str, fp);
 
-    // Close the file
-    fclose(fp);
+//     // Close the file
+//     fclose(fp);
 
-    return 0;
-}
-/*/
+//     return 0;
+// }
+// /*/
 
 ///Read the full content
 
