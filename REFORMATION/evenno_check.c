@@ -9,7 +9,7 @@ int main(){
 
     }
     else{
-        printf("Its not a even no");
+        printf("Its a odd no");
     }
 
 
